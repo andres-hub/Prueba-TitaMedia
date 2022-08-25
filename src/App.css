@@ -1,12 +1,44 @@
-.Container{
-  background-color: #F5F5F7;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+:root{
+  --colorText: white;
+}
+.container{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  overflow: hidden;
 }
-.Car{
+
+.navBar{
+  background-color: black;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.textProfile{
+  color: var(--colorText);
+  font-family: 'Poppins', sans-serif;
+}
+
+.textTitle{
+  color: var(--colorText);
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+  text-decoration: none;
+  color: var(--colorText);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* .Car{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,4 +56,4 @@
   background-color: blue;
   border-radius: 0.25rem;
   width: 50%;
-}
+} */

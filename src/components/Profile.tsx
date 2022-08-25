@@ -7,9 +7,8 @@ export const Profile = () => {
   return (
     <>
        {isAuthenticated &&(
-        <div>
-            <h1>prueba</h1>
-            <button onClick={()=> logout()}>Logaut</button>
+        <div className='profile'>
+            <h3 className='textProfile'>Pepito peres</h3>
         </div>
        )}
     </>
