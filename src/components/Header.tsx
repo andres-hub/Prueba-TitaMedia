@@ -6,7 +6,7 @@ import { Profile } from './Profile'
 export const Header = () => {
   return (
     <header className='navBar'>
-        <h1 className='textTitle'>Aplicacion</h1>
+        <h1 className='header-text'>Tita Media</h1>
         <Profile/>
         <Logout/>
         <Login/>

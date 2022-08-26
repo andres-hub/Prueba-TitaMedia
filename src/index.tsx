@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
 
- const domain: string = `${process.env.REACT_APP_AUTH0_DOMAIN}`
- const client: string =  `${process.env.REACT_APP_AUTH0_CLIENT_ID}`
+ const domain: string = `dev-opkew2aw.us.auth0.com`
+ const client: string =  `QjtLMKHfr3yyNifEoVnMrn2dqVSkMq2O`
 
 
 const root = ReactDOM.createRoot(
