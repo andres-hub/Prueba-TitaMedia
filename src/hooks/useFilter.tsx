@@ -10,8 +10,8 @@ export const useFilter = ()=>{
 
     const filterReducer = (state: IPost[], action: FilterAction):IPost[] => {
         if(action.payload.filter.length > 2)
-            return action.payload.list.filter( row=> row.tag.startsWith(action.payload.filter))
-        return state
+            return action.payload.list.filter( row=> row.tag.toLocaleLowerCase().startsWith(action.payload.filter.toLocaleLowerCase()))
+        return posts
     }
 
     const [_posts, dispatch] = useReducer(filterReducer, initialState);
